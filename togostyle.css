@@ -1,0 +1,70 @@
+		*{
+ margin : 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body {
+    margin: 20px;
+}
+
+details {
+    cursor: pointer;
+ } /* cursor 포인터 모양으로 변경 */
+
+summary {   
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.object1 {
+    margin: auto;
+    margin-top: 10px;
+    width: 200px;
+    height: 400px;
+    background-color:beige;
+    border-radius: 70px;
+    text-align: center;
+}
+
+.img1 { width: 500px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.img2 {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin: 0 auto;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+figure {position: relative;}
+
+figcaption {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    font-size: larger;
+}
+
+.f1 {position: relative;}
+
+.fc1 {position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 120px;
+    font-size: small;
+    text-align: center;
+}   
+
